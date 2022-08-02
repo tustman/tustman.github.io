@@ -589,9 +589,8 @@ body,button {
 .page-1 .text1 {
 	font-size:3.5em;
 	color:#FA4A4A;
-	line-height:2em;
-	margin:0.5em 0 0 0.5em;
 	font-weight: bolder;
+	text-shadow: 1px 1px 1px #FA4A4A;
 }
 .page-1 .text1 span{
 	-moz-user-select: none;
@@ -607,11 +606,24 @@ body,button {
 	display: flex;
 	justify-content: center;
 }
+.page-1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.first-container{
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
 .down-text {
 	display: block;
 	max-width: 80%;
 	line-height: 1.5rem;
-	opacity: 0.9;
+	opacity: 0.8;
 	background: #ffd968;
 	padding: 8px;
 	border-radius: 4px;
